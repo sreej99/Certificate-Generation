@@ -3,11 +3,11 @@ from PIL import Image, ImageDraw, ImageFont
 import os
 
 # === CONFIGURATIONS ===
-EXCEL_FILE = r'C:\Users\admin\Desktop\LAB\Certficate volunteers\Volunteers.xlsx'
+EXCEL_FILE = r'C:\Users\admin\Desktop\Certficate volunteers\Volunteers.xlsx'
 SHEET_NAME = 'Sheet1'
 NAME_COLUMN = 'Name'
-CERTIFICATE_TEMPLATE = r'C:\Users\admin\Desktop\LAB\Certficate volunteers\Final certificate.png'
-OUTPUT_FOLDER = r'C:\Users\admin\Desktop\LAB\Certficate volunteers\certificates'
+CERTIFICATE_TEMPLATE = r'C:\Users\admin\Desktop\Certficate volunteers\Final certificate.png'
+OUTPUT_FOLDER = r'C:\Users\admin\DesktopCertficate volunteers\certificates'
 
 FONT_PATH = r"C:\Users\admin\Desktop\LAB\Certficate volunteers\PlayfairDisplay-Italic-VariableFont_wght.ttf"
 FONT_COLOR = (0, 0, 0)
@@ -70,3 +70,4 @@ for index, row in df.iterrows():
     print(f"✅ Saved: {output_path}")
 
 print("🎉 All volunteer certificates generated successfully!")
+
